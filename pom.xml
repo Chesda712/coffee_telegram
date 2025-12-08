@@ -32,6 +32,10 @@
 	</properties>
 	<dependencies>
 		<dependency>
+    		<groupId>org.springframework.boot</groupId>
+    		<artifactId>spring-boot-starter-thymeleaf</artifactId>
+		</dependency>
+		<dependency>
 		    <groupId>com.github.pengrad</groupId>
 		    <artifactId>java-telegram-bot-api</artifactId>
 		    <version>9.2.1</version>
@@ -84,6 +88,7 @@
 
 	<build>
 		<plugins>
+		
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
@@ -109,6 +114,7 @@
 				</configuration>
 			</plugin>
 		</plugins>
+		
 	</build>
 
 </project>
