@@ -21,9 +21,9 @@ public class MyController {
 	@GetMapping({ "/", "/home" })
 	public String home(Model mod) {
 		Booked booked = new Booked(
-				1,"Sreng Theanyang",
+				1,"Von Chesda",
 				"098 849 388",
-				"theanyang@gmail.com",
+				"vonchesda@gmail.com",
 				"11/12/2025",
 				"3:21 PM",
 				5
@@ -50,9 +50,9 @@ public class MyController {
 	@GetMapping("/reservation")
 	public String reservation(Model mod) {
 		Booked booked = new Booked(
-				1,"Sreng Theanyang",
+				1,"Von Chesda",
 				"098 849 388",
-				"theanyang@gmail.com",
+				"vonchesda@gmail.com",
 				"11/12/2025",
 				"3:21 PM",
 				5
